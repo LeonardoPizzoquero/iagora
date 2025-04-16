@@ -3,13 +3,13 @@ import { getFirestore } from 'firebase/firestore';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAXwmdHdhc4aQMnXJ8ocW-qUHfjAOCCFwg",
-  authDomain: "iagora-af546.firebaseapp.com",
-  projectId: "iagora-af546",
-  storageBucket: "iagora-af546.firebasestorage.app",
-  messagingSenderId: "279330855110",
-  appId: "1:279330855110:web:5367d304f04c8b11b29fc7",
-  measurementId: "G-VNZF7XZ2P0"
+  apiKey: import.meta.env.apiKey,
+  authDomain: import.meta.env.authDomain,
+  projectId: import.meta.env.projectId,
+  storageBucket: import.meta.env.storageBucket,
+  messagingSenderId: import.meta.env.messagingSenderId,
+  appId: import.meta.env.appId,
+  measurementId: import.meta.env.measurementId,
 };
 
 // Initialize Firebase
